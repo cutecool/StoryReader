@@ -37,6 +37,7 @@ public class test {
 		templink = urllink.substring(urllink.indexOf("-", urllink.indexOf("-") + 1), urllink.indexOf("-1.") + 3);
 		urllink = urllink.replace(templink, "-" + pagefrom + "-1.");
 //		urllink = urllink.replace("-1.", pagefrom + "-1.");
+//		Util.print(urllink);
 //		System.out.println(urllink);
 		
 		while(pagefrom <= pageto) {
