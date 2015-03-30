@@ -11,4 +11,8 @@ public class Util {
 	public void testtest() {
 		// bar bar bar
 	}
+
+	public void printtest() {
+		System.out.println("bar bar bar");
+	}
 }
